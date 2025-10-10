@@ -1,0 +1,91 @@
+body {
+    /* Màu nền */
+    background-color: rgb(222, 251, 251);
+}
+
+ol {
+    /* Kiểu ký tự đầu */
+    list-style: upper-roman;
+    /* font chữ */
+    font-family: 'Gill Sans', sans-serif;
+    /* Cỡ chữ */
+    font-size: 12px;
+    /* In đậm */
+    font-weight: bold;
+    /* Kiểu chữ: in nghiêng */
+    font-style: italic;
+    /* Trang trí cho chữ */
+    text-decoration: underline;
+}
+
+a {
+    /* Loại bỏ gạch chân */
+    text-decoration: none;
+}
+
+img {
+    /* Chiều cao */
+    height: 250px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid #000000;
+
+    /* Viền (đầy đủ) */
+    /* Kích thước */
+    border-width: 8px;
+    /* Kiểu viền */
+    border-style: dashed;
+    /* Màu viền */
+    border-color: #000000;
+
+    /* Bo góc */
+    border-radius: 30px;
+}
+
+span {
+    /* Chỉnh màu nền */
+    background-color: #f87e7e;
+    /* Chỉnh kích thước */
+    width: 150px;
+    height: 150px;
+    /* Thuộc tính display */
+    display: inline-block;
+}
+
+div {
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid #000000;
+    /* Bo góc */
+    border-radius: 20px;
+    /* căn giữa nội dung */
+    text-align: center;
+    /* màu nền */
+    background-color: #f0c5e5;
+    /* font chữ */
+    font-family: 'Gill Sans', sans-serif;
+}
+
+h2 {
+    color: rgb(126, 9, 9);
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(24, 10, 116);
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul {
+    list-style: square;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+a{
+    color: black;
+}
