@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        #internal{
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS selectors -->
+    
+    <!-- Class selector: [tên thẻ].[tên class] -->
+    <p class="jsb39">Đây là thẻ p1</p>
+    <p class="jsb39">Đây là thẻ p2</p>
+
+    <!-- ID selector: [tên thẻ]#[tên id] -->
+    <p id="minhkhai">Đây là thẻ p3</p>
+
+    <!-- CSS theo con, hậu duệ -->
+    <div class="d1">
+        <p>Đây là phần tử con trực tiếp của d1</p>
+        <div>
+            <p>Đây là phần tử cháu của d1</p>
+        </div>
+    </div>
+
+    <!-- Các cách viết CSS -->
+    <h2>3 cách viết CSS</h2>
+    <p style="color: brown;">Inline CSS: viết trực tiếp trong thẻ HTML</p>
+    <p id="internal">Internal CSS: viết trong thẻ style trong phần head của file html</p>
+    <p>External CSS: viết trong file css riêng và liên kết với file html (cách đang dùng)</p>
+
+    <h2>Thứ tự ưu tiên CSS</h2>
+    <p>Theo cách viết: Inline => Internal => External</p>
+    <p>Theo selector: ID => Class => Tag</p>
+    
+    <h2>Box model</h2>
+    <img src="https://media.gcflearnfree.org/content/5ef2084faaf0ac46dc9c10be_06_23_2020/box_model.png" alt="" height="300px">
+
+    <div class="box" id="box1">BOX 1</div>
+    <div class="box" id="box2">BOX 2</div>
+
+    <h2>Box sizing</h2>
+    <img src="https://miro.medium.com/1*08DnApeCVZ9QwaxgOrzGkA.jpeg" alt="" height="300px">
+
+</body>
+</html>

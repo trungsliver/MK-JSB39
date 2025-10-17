@@ -1,0 +1,57 @@
+/* CSS theo thẻ */
+p {
+    /* In đậm */
+    font-weight: bold;
+}
+
+/* CSS theo class */
+.jsb39{
+    /* Màu chữ */
+    color: blue;
+}
+
+/* CSS theo id */
+#minhkhai {
+    /* Màu chữ */
+    color: red;
+}
+
+/* CSS theo hậu duệ (con + cháu)  */
+.d1 p {
+    /* Màu nền */
+    background-color: yellowgreen;
+}
+
+/* CSS theo con trực tiếp */
+.d1 > p {
+    /* Cỡ chữ */
+    font-size: 22px;
+}
+
+/* Box model */
+.box{
+    /* Kích thước */
+    width: 100px;
+    height: 100px;
+
+    /* Đường viền */
+    border: 1px solid black;
+
+    /* Khoảng cách từ content đến viền */
+    padding: 10px;
+
+    /* Khoảng cách từ viền đến phần tử khác */
+    margin: 10px;
+}
+
+#box1{
+    background-color: lightcoral;
+    /* Box sizing */
+    box-sizing: border-box;
+}
+
+#box2{
+    background-color: lightblue;
+    /* Box sizing */
+    box-sizing: content-box;
+}
