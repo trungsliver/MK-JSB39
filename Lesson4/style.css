@@ -1,0 +1,10 @@
+.child {
+    position: relative;
+    background-color: lightblue;
+    /* Chiều ngang vừa với nội dung */
+    width: fit-content;
+    height: 30px;
+    /* Chỉnh vị trí */
+    top: 10px;
+    left: 20px;
+}
