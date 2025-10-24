@@ -24,7 +24,7 @@
     width: fit-content;
     height: 30px;
     /* Chỉnh vị trí */
-    top: 100px;
+    top: 10px;
     left: 20px;
 }
 
@@ -37,4 +37,36 @@
     /* Chỉnh vị trí */
     bottom: 10px;
     right: 10px;
+}
+
+/* CSS Flexbox */
+.container {
+    /* Flexbox */
+    display: flex;
+    background-color: lightpink;
+    /* hướng sắp xếp phần tử */
+    flex-direction: row;
+    /* Hướng sắp xếp theo chiều ngang */
+    justify-content: space-around;
+    /* Sắp xếp theo chiều dọc */
+    align-items: center;
+    /* Xuống dòng khi hết chỗ */
+    flex-wrap: wrap;
+}
+
+img{
+    height: 200px;
+}
+
+#test {
+    background-color: lightsalmon;
+    width: 200px;
+    height: 100px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #test {
+        background-color: limegreen;
+    }
 }
