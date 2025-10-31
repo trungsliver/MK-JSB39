@@ -1,0 +1,46 @@
+.menu {
+    position: absolute;
+    /* Màu chữ */
+    color: white;
+    /* Màu nền */
+    background-color: black;
+    /* Chiều ngang: toàn bộ màn hình */
+    width: 100%;
+    /* Căn lề giữa */
+    text-align: center;
+    /* Vị trí so với phần tử cha */
+    top: 0;
+    left: 0;
+    /* Khoảng cách từ nội dung đến viền */
+    padding: 15px 0;
+}
+
+.noidung{
+    /* Khoảng cách đến các đối tượng khác */
+    margin-top: 80px;
+    /* Màu sắc */
+    color: black;
+    background-color: lightgrey;
+    padding: 40px; 
+}
+
+.quaylai{
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 15px 10px;
+    /* Cho nút sang bên phải */
+    float: right;
+}
+
+.thongbao {
+    position: fixed;
+    background-color: red;
+    color: white;
+    padding: 15px 15px;
+    /* Vị trí trên màn hình (viewport) */
+    top: 50px;
+    right: 10px;
+    /* Chỉnh độ sâu: số càng lớn thì càng nằm trên */
+    z-index: 1000;
+}
