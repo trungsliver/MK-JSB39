@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+
+ul{
+    display: flex;
+    align-content: center;
+    list-style: none;
+    height: 80px;
+    margin: 0;
+}
+
+li{
+    margin-right: 40px;
+    box-sizing: border-box;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bolder;
+}
+
+#logo{
+    height: 80px;
+}
+
+.container{
+    margin-top: 120px;
+    text-align: center;
+}
