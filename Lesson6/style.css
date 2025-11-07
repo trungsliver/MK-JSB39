@@ -5,7 +5,96 @@
     /* Xuống dòng */
     flex-wrap: wrap;
     /* Sắp xếp theo chiều ngang */
-    justify-content: center;
+    justify-content: space-evenly;
     /* Khoảng cách giữa các phần tử */
     gap: 30px;
+}
+
+/* =========== Footer =========== */
+.footer {
+  background-color: #1a1a1a;
+  color: #d9d9d9;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  color: #f5c542;
+  font-weight: 600;
+}
+
+.footer-title {
+  color: #f5c542;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.footer-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #d9d9d9;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f5c542;
+}
+
+.footer-contact li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.footer-social a {
+  display: inline-block;
+  color: #d9d9d9;
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-social a:hover {
+  color: #f5c542;
+  transform: translateY(-3px);
+}
+
+.footer-divider {
+  border-top: 1px solid #333;
+}
+
+.footer-bottom {
+  color: #888;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-logo {
+    text-align: center;
+  }
+
+  .footer-title {
+    text-align: center;
+  }
+
+  .footer-social {
+    text-align: center;
+  }
+}
+
+
+/* =========== Pagination =========== */
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
