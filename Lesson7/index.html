@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Google Fonts -->
+    <h2>Google Fonts</h2>
+
+    <!-- Form -->
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+
+        <!-- <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>            
+        </select>
+        <br> -->
+
+        <label for="gender">Gender:</label>
+
+        <input type="radio" name="gender" value="male">
+        <label class="gender">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label class="gender">Female</label>
+        <input type="radio" name="gender" value="other">
+        <label class="gender">Other</label>
+        <br>
+
+        <label for="siblings">Siblings:</label>
+        <input type="number" id="siblings" name="siblings" min="0">
+        <br>
+
+        <label for="avatar">Avatar:</label>
+        <input type="file" id="avatar" name="avatar">
+        <br>
+
+        <label for="color">Fav color:</label>
+        <input type="color" id="color" name="color">
+        <br>
+
+        <input type="checkbox" id="cb" name="cb" required>
+        <label for="cb" id="cb-label">I agree to Terms and Conditions</label>
+        <br>
+
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
