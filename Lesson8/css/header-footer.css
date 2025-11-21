@@ -42,3 +42,69 @@
         height: 38px;
     }
 }
+
+/* ========== FOOTER ========== */
+/* Footer chung */
+.footer {
+    background-color: #1d1d1d;
+    color: #ddd;
+    font-size: 15px;
+}
+
+/* Logo footer */
+.footer-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #c19b63;
+}
+
+/* Mô tả */
+.footer-desc {
+    line-height: 1.6;
+    color: #bbb;
+}
+
+/* Tiêu đề cột */
+.footer-title {
+    font-size: 17px;
+    font-weight: 600;
+    color: #c19b63;
+    margin-bottom: 12px;
+}
+
+/* Link footer */
+.footer-link {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.footer-link:hover {
+    color: #c19b63;
+    padding-left: 4px;
+}
+
+/* Thông tin liên hệ */
+.footer-info li {
+    margin-bottom: 8px;
+}
+
+/* Icon mạng xã hội */
+.social-icons a {
+    font-size: 22px;
+    color: #ddd;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #c19b63;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .footer-logo {
+        font-size: 20px;
+    }
+}

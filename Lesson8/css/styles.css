@@ -1,0 +1,11 @@
+.container-items {
+    display: flex;
+    /* Hướng sắp xếp */
+    flex-direction: row;
+    /* Xuống dòng */
+    flex-wrap: wrap;
+    /* Sắp xếp theo chiều ngang */
+    justify-content: space-evenly;
+    /* Khoảng cách giữa các phần tử */
+    gap: 30px;
+}
