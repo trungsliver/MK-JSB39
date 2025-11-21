@@ -1,0 +1,44 @@
+/* ========== HEADER ========== */
+/* Logo */
+.logo {
+    height: 45px;
+    margin-right: 10px;
+}
+
+/* Brand Name */
+.brand-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+/* Navbar tổng thể */
+.custom-navbar {
+    padding: 15px 0;
+    transition: 0.3s ease-in-out;
+}
+
+/* Link menu */
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #444 !important;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: #c19b63 !important; /* Màu vàng sang trọng */
+}
+
+/* Link đang active */
+.nav-link.active {
+    color: #c19b63 !important;
+    font-weight: 600;
+}
+
+/* Responsive: logo thu nhỏ */
+@media (max-width: 576px) {
+    .logo {
+        height: 38px;
+    }
+}
